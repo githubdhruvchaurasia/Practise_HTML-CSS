@@ -1,0 +1,15 @@
+/* calc()
+perform math opertaions + - * /
+mix and match  values */
+
+.navbar {
+    background: grey;
+    height: 100px;
+    color: yellow;
+    font-size: 3rem;
+}
+
+.banner {
+    background: yellowgreen;
+    min-height: calc(100vh - 100px);
+}

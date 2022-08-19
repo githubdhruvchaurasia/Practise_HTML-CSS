@@ -1,0 +1,65 @@
+
+
+
+p::before {
+    content: "HELLO";
+    display: block;
+    background: black;
+    font-weight: bold;
+    font-size: 2rem;
+    color: red;
+}
+
+
+p::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: green;
+}
+
+div {
+    width: 60vw;
+    margin: 100px auto;
+    position: relative;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+    display: block;
+}
+
+
+div::before {
+    content: "";
+    border: 2px solid grey;
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    box-sizing: border-box;
+    top: -40px;
+    left: -40px;
+    z-index: -2;
+    transition: all 0.5px linear;
+}
+
+div::after {
+    content: "";
+    background: grey;
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    box-sizing: border-box;
+    top: -20px;
+    left: -20px;
+    z-index: -1;
+    transition: all 0.5px linear;
+}
+
+div::hover::after,
+div::hover::before{
+    top:0;
+    left:0;
+}

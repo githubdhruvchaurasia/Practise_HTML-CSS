@@ -1,0 +1,19 @@
+/* 
+pseudo elements :: before ::after CONTENT not element
+content:'' -- required
+img --- does not work
+*/
+
+p::before{
+    content: "Hello";
+    font-weight: bold;
+    font-size: 3rem;
+    color: cadetblue;
+}
+
+p::after{
+    content: "THE END";
+    font-weight: lighter;
+    font-size: 2rem;
+    color: red;
+}

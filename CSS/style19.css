@@ -1,0 +1,30 @@
+
+/* Block: Top bottom Margin Respected */
+/* Inline: Top Bottom Margin Not Respected */
+/* Mobile Navbar */
+/* List-Style-type:property */
+/* Descendant selectors */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul li{
+    list-style-type:square;
+}
+
+ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    background: rgb(204, 156, 156);
+    display: block;
+    padding: 10px 10px;
+    margin: 10px;
+}

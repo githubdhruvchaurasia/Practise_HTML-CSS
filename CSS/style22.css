@@ -1,0 +1,25 @@
+/*  
+Display:none 
+Opacity:0
+visibility:hidden
+*/
+
+
+div{
+    background: rgb(185, 185, 223);
+    margin: 10px;
+    color: rgb(243, 209, 209);
+}
+
+.none{
+    display: none;
+}
+
+.opacity{
+    opacity:1;
+    color: rgba(red, green, blue, alpha);
+}
+
+.opacity-0{
+    opacity: 0;
+}

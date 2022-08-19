@@ -1,0 +1,10 @@
+ /* Font-Size Width,Height, Pixels */
+
+ h1{
+     font-size: 30px;
+     width: 1000px;
+     height: 45px;
+     color: brown;
+     background-color: bisque;
+ }
+ 

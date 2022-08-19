@@ -1,0 +1,32 @@
+div {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: 0.2%;
+    padding: .5%;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+.one {
+    background: linear-gradient(skyblue, blue);
+}
+
+.two {
+    background: linear-gradient(to top, skyblue, blue);
+}
+
+.three {
+    background: linear-gradient(315deg, red, green);
+}
+
+.four {
+    background: linear-gradient(to top right, red, green);
+}
+
+.five {
+    background: linear-gradient(rgba(104, 103, 103), rgba(0, 0, 0));
+}

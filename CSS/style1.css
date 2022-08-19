@@ -1,0 +1,23 @@
+.green {
+    color: aquamarine;
+}
+
+.red {
+    color: red;
+}
+
+.lowercase {
+    text-transform: uppercase;
+}
+
+div {
+    color: brown;
+    background-color: yellow;
+}
+
+
+span {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 800;
+}

@@ -1,0 +1,13 @@
+/* Text Align */
+/* Text Indent */
+
+.main{
+    font-family: cursive;
+    /* text-align: center; */
+    
+}
+
+.paragraph{
+    /* text-align: center; */
+    text-indent: 500px;
+}

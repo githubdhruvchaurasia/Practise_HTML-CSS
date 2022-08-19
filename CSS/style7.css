@@ -1,0 +1,13 @@
+/* PERCENTAGE VALUES */
+
+.outer {
+    width: 500px;
+    height: 500px;
+    background: yellow;
+}
+
+.inner {
+    width: 50%;
+    height: 50%;
+    background: yellowgreen;
+}

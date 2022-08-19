@@ -1,0 +1,17 @@
+
+/* Horizontal Centering */
+
+
+.body{
+text-align: center;
+}
+
+.block{
+    background: blue;
+    color: aliceblue;
+}
+
+.inline{
+    background: red;
+    color: aliceblue;
+}

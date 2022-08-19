@@ -1,0 +1,22 @@
+
+
+div{
+    border: 3px solid salmon;
+    background-color: yellow;
+    margin-top: 50px;
+}
+
+.one{
+    background: pink;
+}
+
+.two{
+    background: orange;
+}
+
+.special{
+    background: yellowgreen;
+    font-size: 16px;
+    position: absolute;
+    right: 0px;
+}

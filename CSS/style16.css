@@ -1,0 +1,29 @@
+
+/* Outline  */
+/* Offset */
+
+.buttons{
+    margin: 3rem;
+}
+
+a{
+    background: #f0c2d9;
+    text-decoration: none;
+    padding: 1.5rem 1.8rem;
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#one{
+    border: 0.2rem solid #222;
+    outline-offset: -10px;
+}
+
+#two{
+    outline-width: 0.2rem;
+    outline-style: solid;
+    outline-color: #222;
+    outline-offset: 8px;
+}
